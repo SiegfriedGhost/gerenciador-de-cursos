@@ -3,6 +3,10 @@ package br.com.alura;
 import java.util.ArrayList;
 import java.util.Collections;
 
+//Curso Alura - Java Collections: Dominando Listas, Sets e Mapas 
+//Aula 1 - Trabalhando com ArrayList
+
+
 public class TestandoListas {
 	
 	public static void main(String[] args) {
