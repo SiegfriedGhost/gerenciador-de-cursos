@@ -1,12 +1,15 @@
 package br.com.alura;
 
+//Curso Alura - Java Collections: Dominando Listas, Sets e Mapas 
+//Aula 2 - Listas de objetos
+
+//Implementando interface Comparable 
 public class Aula implements Comparable<Aula>{
 
 	private String titulo;
 	private int tempo;
 	
 	public Aula(String titulo, int tempo) {
-		//super();
 		this.titulo = titulo;
 		this.tempo = tempo;
 	} 

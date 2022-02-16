@@ -24,10 +24,11 @@ public class TestandoListas {
 		System.out.println(aulas);
 		
 		aulas.remove(0);
+		aulas.get(0);
 		
 		System.out.println(aulas);
 		
-		//Para cada string aula dentro de aula 
+		//Para cada string aula dentro de aulas 
 		for (String aula : aulas) {
 			System.out.println("Aula: " + aula);
 						
@@ -39,7 +40,7 @@ public class TestandoListas {
 			System.out.println("Aula: " + aulas.get(i));
 		}
 		
-		//Lambda
+		//Método forEach / Lambda
 		aulas.forEach(aula -> {
 			System.out.println("Percorrendo:");
 			System.out.println("Aula: " + aula);
@@ -49,6 +50,7 @@ public class TestandoListas {
 		aulas.add("Aumentando o nosso conhecimento!");
 		System.out.println(aulas);
 		Collections.sort(aulas);
+		System.out.println("Depois de ordenado:");
 		System.out.println(aulas);
 	}
 }

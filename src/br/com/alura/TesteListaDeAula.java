@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+//Curso Alura - Java Collections: Dominando Listas, Sets e Mapas 
+//Aula 2 - Listas de objetos
 public class TesteListaDeAula {
 	
 	public static void main(String[] args) {
@@ -20,9 +22,11 @@ public class TesteListaDeAula {
 		
 		System.out.println(aulas);
 		
+		//sort sabe ordenar String mas nao o tipo Aulas 
 		Collections.sort(aulas);
 	
 		System.out.println(aulas);
+		
 		
 		Collections.sort(aulas, Comparator.comparing(Aula::getTempo));
 		System.out.println(aulas);
